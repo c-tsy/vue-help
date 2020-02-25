@@ -1,0 +1,17 @@
+{
+  "name": "@ctsy/vue-help",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js",
+    "README.md",
+    "yarn.lock"
+  ],
+  "repository": "https://github.com/c-tsy/vue-help",
+  "author": "castleiMac <castle@tansuyun.cn>",
+  "license": "MIT",
+  "dependencies": {
+    "moment": "*",
+    "vue": "*"
+  }
+}
