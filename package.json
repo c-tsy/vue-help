@@ -1,12 +1,16 @@
 {
   "name": "@ctsy/vue-help",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "files": [
     "dist/index.js",
+    "dist/index.d.ts",
     "README.md",
     "yarn.lock"
   ],
+  "scripts": {
+    "prepublish": "tsc > /dev/null"
+  },
   "repository": "https://github.com/c-tsy/vue-help",
   "author": "castleiMac <castle@tansuyun.cn>",
   "license": "MIT",
