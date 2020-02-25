@@ -1,6 +1,6 @@
 {
   "name": "@ctsy/vue-help",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "files": [
     "dist/index.js",
@@ -9,7 +9,7 @@
     "yarn.lock"
   ],
   "scripts": {
-    "prepublish": "tsc > /dev/null"
+    "prepublish": "rm -rf dist && tsc"
   },
   "repository": "https://github.com/c-tsy/vue-help",
   "author": "castleiMac <castle@tansuyun.cn>",
