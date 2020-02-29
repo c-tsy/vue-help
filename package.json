@@ -1,6 +1,6 @@
 {
   "name": "@ctsy/vue-help",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "dist/index.js",
   "files": [
     "dist/index.js",
@@ -15,7 +15,6 @@
   "author": "castleiMac <castle@tansuyun.cn>",
   "license": "MIT",
   "dependencies": {
-    "moment": "*",
-    "vue": "*"
+    "moment": "*"
   }
 }
