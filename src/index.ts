@@ -1,13 +1,15 @@
-import Vue from 'vue'
 import * as moment from 'moment'
-
-Vue.filter('date', date);
-
-Vue.filter('money', (value: string | number) => {
-    return Number(value).toFixed(2)
-})
-
-Vue.filter('age', age)
+declare let window: any;
+function install(Vue) {
+    Vue.filter('date', date);
+    Vue.filter('money', (value: string | number) => {
+        return Number(value).toFixed(2)
+    })
+    Vue.filter('age', age)
+}
+export default {
+    install
+}
 /**
  * 求年龄
  * @param value 
@@ -30,4 +32,8 @@ export function date(time: Date | string = new Date, format: string = "YYYY-MM-D
         return moment(time).format(format)
     }
     return "";
+}
+/* istanbul ignore if */
+if (typeof window !== 'undefined' && window.Vue) {
+    install(window.Vue);
 }
