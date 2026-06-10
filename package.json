@@ -12,6 +12,10 @@
     "prepublish": "rm -rf dist && tsc"
   },
   "repository": "https://github.com/c-tsy/vue-help",
+  "homepage": "https://github.com/c-tsy/vue-help#readme",
+  "bugs": {
+    "url": "https://github.com/c-tsy/vue-help/issues"
+  },
   "author": "castleiMac <castle@tansuyun.cn>",
   "license": "MIT",
   "dependencies": {
